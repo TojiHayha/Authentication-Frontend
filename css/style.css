@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/img/backgroundSky.jpg');
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  input {
+    width: 70%;
+    background-color: #1a1a1a; 
+    color: #ffffff; 
+    border: 1px solid #00c6ff; 
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+
+  }
+  
+  input::placeholder {
+    color: #cccccc; 
+  }
+  
+  input:focus {
+    background-color: #333333; 
+    border: 1px solid #3a7bd5; 
+    outline: none; 
+  }
+  
+  
+  button {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #00c6ff, #3a19cb, #7e09e5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+
+  button:hover {
+    background-color: #004080;
+  }
+
+  .logo{
+    width: 150px;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    color: transparent;
+    background: linear-gradient(90deg, #00c6ff, #3a19cb, #7e09e5);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+ .line {
+    border: 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px 5; 
+    width: 100%; 
+    max-width: 250px; 
+  }
+  
+  a {
+    color: #66c0ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
