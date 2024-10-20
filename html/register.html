@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro - EchosTech</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <img src="../assets/img/Logo.png" alt="Logo" class="logo" />
+        <h2>EchosTech</h2>
+        <hr class="line" />
+        <p>Cadastre-se!</p>
+        <form id="register-form">
+          <input type="text" id="username" placeholder="Nome" required />
+          <input type="email" id="email" placeholder="E-mail" required />
+          <input type="password" id="password" placeholder="Senha" required />
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Confirme a senha"
+            required
+          />
+          <button type="submit">Registrar</button>
+        </form>
+        <p>Já tem cadastro? <a href="login.html">Acesse o Login!</a></p>
+      </div>
+    </div>
+
+    <script type="module" src="../js/register.js"></script>
+  </body>
+</html>
